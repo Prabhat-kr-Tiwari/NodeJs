@@ -120,4 +120,53 @@ const { error } = require('console')
 //operating system module
 const os=require('os')
 
-console.log('operating system time',os.type())
+// console.log('operating system time',os.type())
+// // console.log('operating system time',os.platform())
+// console.log('cpu architecture ',os.arch())
+// // console.log('cpu architecture ',os.cpus())
+// console.log('free memory ',os.freemem())
+// console.log('total memory ',os.totalmem())
+// console.log('uptime  ',os.uptime())
+
+
+// event module
+const Emitter=require('events')
+
+// const myEmitter=new Emitter()
+// myEmitter.on('somename',(data)=>{
+
+//     console.log(data)
+
+// })
+
+// myEmitter.emit('somename',{
+//     name:'Rakesh'
+// })
+
+// class Auth extends Emitter{
+//     register(username){
+//         console.log('Registered successfully.......')
+
+//         this.emit('registered',username)
+//     }
+// }
+// const authorization=new Auth()
+// //listen
+
+
+// //verify email
+// authorization.on('registered',(data)=> {
+
+//     console.log(`sending email to ${data}`)
+// })
+
+// //welcome email
+
+// authorization.on('registered',(data)=> {
+
+//     console.log(`sending welcome email to ${data}`)
+// })
+
+// authorization.register('prabhat')
+
+
